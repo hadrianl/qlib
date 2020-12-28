@@ -30,7 +30,7 @@ class BaseStrategy:
 
         Parameters
         -----------
-        score_series : pd.Series
+        score_series : pd.Seires
             stock_id , score.
         current : Position()
             current state of position.
