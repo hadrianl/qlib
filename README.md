@@ -34,6 +34,7 @@ For more details, please refer to our paper ["Qlib: An AI-oriented Quantitative 
 - [More About Qlib](#more-about-qlib)
 - [Offline Mode and Online Mode](#offline-mode-and-online-mode)
   - [Performance of Qlib Data Server](#performance-of-qlib-data-server)
+- [Related Reports](#related-reports)
 - [Contributing](#contributing)
 
 
@@ -99,6 +100,8 @@ Also, users can install the latest dev version ``Qlib`` by the source code accor
     ```
   **Note**: **Only** the command ``pip install .`` **can** overwrite the stable version installed by ``pip install pyqlib``, while the command ``python setup.py install`` **can't**.
 
+**Tips**: If you fail to install `Qlib` or run the examples in your environment,  comparing your steps and the [CI workflow](.github/workflows/test.yml) may help you find the problem.
+
 ## Data Preparation
 Load and prepare data by running the following code:
   ```bash
@@ -146,7 +149,7 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
       cd examples  # Avoid running program under the directory contains `qlib`
       qrun benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml
     ```
-    The result of `qrun` is as follows, please refer to please refer to [Intraday Trading](https://qlib.readthedocs.io/en/latest/component/backtest.html) for more details about the result. 
+    The result of `qrun` is as follows, please refer to [Intraday Trading](https://qlib.readthedocs.io/en/latest/component/backtest.html) for more details about the result. 
 
     ```bash
 
@@ -291,7 +294,10 @@ Such overheads greatly slow down the data loading process.
 Qlib data are stored in a compact format, which is efficient to be combined into arrays for scientific computation.
 
 
-
+# Related Reports
+- [【华泰金工林晓明团队】微软AI量化投资平台Qlib体验——华泰人工智能系列之四十](https://mp.weixin.qq.com/s/Brcd7im4NibJOJzZfMn6tQ)
+- [微软也搞AI量化平台？还是开源的！](https://mp.weixin.qq.com/s/47bP5YwxfTp2uTHjUBzJQQ)
+- [微矿Qlib：业内首个AI量化投资开源平台](https://mp.weixin.qq.com/s/vsJv7lsgjEi-ALYUz4CvtQ)
 
 
 # Contributing
